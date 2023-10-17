@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteador</title>
+    <link href="css/style.css" rel="stylesheet"/>
+</head>
+<body>
+    <h1>Sorteador de Nomes</h1>
+    <form>
+        <input type="text" id="nome" placeholder="Insira o nome do participante">
+        <button onclick="adicionaNome(event)">Adicionar Nome</button>
+        <ul id="listaNomes"></ul>
+        <button onclick="sorteiaGanhador(event)">Sortear</button>
+        <p id="ganhador"></p>
+    </form>
+<script src="js/sorteio.js"></script>
+</body>
+</html>

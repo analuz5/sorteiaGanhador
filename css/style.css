@@ -1,0 +1,20 @@
+body{
+    background-color:beige ;
+}
+/* Exemplos de formatação no CSS*/
+/*Diretamente na Tag*/
+li{
+    margin: 8px;
+    color: aqua;
+}
+/*criando uma classe*/
+.fundo{
+background-color: beige;
+}
+
+/*Editando um elemento pelo id*/
+#ganhador{
+    background-color: aqua;
+    color: aquamarine;
+    border-radius: 16px;
+}
